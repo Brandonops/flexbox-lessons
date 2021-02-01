@@ -1,0 +1,20 @@
+.flex-container {
+    background-color: tomato;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.item {
+    width: 100px;
+    background-color: chartreuse;
+    height: 50px;
+    margin: 10px;
+    font-size: 40px;
+}   
+
+.item-5 {
+    align-self: stretch;
+    flex-grow: 1;
+    height: auto;
+}

@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border: 3px solid rgb(248, 0, 0);
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}

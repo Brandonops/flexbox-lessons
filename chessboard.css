@@ -1,0 +1,32 @@
+body {
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chessboard {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    border: solid 3px rgb(43, 5, 255);
+    align-items: center;
+    margin: 10px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .grid-item {
+    background-color: #9effd2;
+    width: 50px;
+    height: 50px;
+  }
+
+  .row:nth-child(odd) > .grid-item:nth-child(even) {
+    background-color: #464fd1;
+  }
+
+  .row:nth-child(even) > .grid-item:nth-child(odd) {
+    background-color: #464fd1;
+  }

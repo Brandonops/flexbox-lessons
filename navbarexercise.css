@@ -1,0 +1,21 @@
+.nav-bar {
+    background-color:rgb(9, 140, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+    
+}
+
+.nav-bar-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar-item a{
+    padding: 5px;
+    color:whitesmoke;
+    text-decoration: none;
+}
